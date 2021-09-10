@@ -1,6 +1,6 @@
-import React, { Component, Fragment } from "react";
-import { Paper, Typography } from "@material-ui/core";
-
+import React, { Component } from "react";
+import { Typography } from "@material-ui/core";
+ 
 export default class Footer extends Component {
   render() {
     return (
@@ -18,13 +18,13 @@ export default class Footer extends Component {
           </Typography>
         </div>
         <div className="footer-a">
-          <a href="https://www.facebook.com/gr8.rachit" target="_blank">
+          <a href="https://www.facebook.com/gr8.rachit" rel="noopener noreferrer" target="_blank">
             <i class="fab fa-facebook-f " />
           </a>
-          <a href="https://twitter.com/rachit_g8t" target="_blank">
+          <a href="https://twitter.com/rachit_g8t" rel="noopener noreferrer" target="_blank">
             <i class="fab fa-twitter" />
           </a>
-          <a href="https://www.instagram.com/_rachit_gupta/" target="_blank">
+          <a href="https://www.instagram.com/_rachit_gupta/" rel="noopener noreferrer" target="_blank">
             <i class="fab fa-instagram" />
           </a>
           <a href="mailto: guptarachit371@gmail.com">

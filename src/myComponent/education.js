@@ -10,6 +10,9 @@ import Typography from "@material-ui/core/Typography";
 import Chip from "@material-ui/core/Chip";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+AOS.init();
+
 const styles = theme => ({
   button: {
     marginTop: theme.spacing.unit,
@@ -22,6 +25,7 @@ const styles = theme => ({
     padding: theme.spacing.unit * 3
   }
 });
+
 
 function getSteps() {
   return ["Bachelor's Degree", "Higher Secondary", "High School"];
@@ -64,6 +68,7 @@ class VerticalLinearStepper extends Component {
   };
 
   render() {
+    
     const { classes } = this.props;
     const steps = getSteps();
     const { activeStep } = this.state;

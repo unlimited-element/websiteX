@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Grid, Paper } from "@material-ui/core";
 import AOS from "aos";
 import "aos/dist/aos.css";

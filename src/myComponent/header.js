@@ -11,27 +11,22 @@ import {
   ListItem,
   ListItemText
 } from "@material-ui/core";
-import Fab from "@material-ui/core/Fab";
 import MenuIcon from "@material-ui/icons/Menu";
 import { withStyles } from "@material-ui/core/styles";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
-//import HomePage from "./homePage";
+
 const styles = theme => ({
-  menuButton: {
-    marginLeft: -12,
-    marginRight: 20
-  },
   drawerWidth: {
     width: "auto"
   },
-  drawerColor: {
+  drawerAlign: {
     textAlign: "center"
   },
   headerwidth: {
-    width: "100",
+    width: "100%",
     padding: 0,
     margin: 0,
-    float: "left"
+    float: "left",
   }
 });
 
@@ -119,7 +114,7 @@ class Header extends Component {
             <Drawer
               anchor="top"
               open={this.state.open}
-              classes={{ paperAnchorTop: classes.drawerColor }}
+              classes={{ paperAnchorTop: classes.drawerAlign }}
               style={{ color: "yellow" }}
             >
               <div className={classes.drawerWidth}>

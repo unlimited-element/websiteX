@@ -1,15 +1,15 @@
 import React, { Component, Fragment } from "react";
 import HeaderSite from "./myComponent/header";
-//import HomePage from "./myComponent/homePage";
-
 import About from "./myComponent/About";
-import Experience from "./myComponent/experience";
+import Projects from "./myComponent/projects";
 import Education from "./myComponent/education";
 import Skill from "./myComponent/Skill";
 import Achievements from "./myComponent/achievements";
-import HomePage from "./myComponent/homePage";
+import HomePage from "./myComponent/homePage.jsx";
 import Footer from "./myComponent/footer";
 import Particles from "react-particles-js";
+
+
 const particlesOptions = {
   particles: {
     number: {
@@ -33,7 +33,7 @@ const particlesOptions = {
       }
     },
     opacity: {
-      value: 0.5,
+      value: 0.8,
       random: false,
       anim: {
         enable: false,
@@ -43,7 +43,7 @@ const particlesOptions = {
       }
     },
     size: {
-      value: 2,
+      value: 5,
       random: true,
       anim: {
         enable: false,
@@ -123,7 +123,8 @@ class AppStart extends Component {
         <HomePage />
         <About />
         <div className="bg_color">
-          <Experience /> <Education />
+          <Projects /> <br/>
+          <Education />
           <Skill />
           <Achievements />
           <Footer />
