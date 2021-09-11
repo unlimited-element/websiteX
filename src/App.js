@@ -2,7 +2,6 @@ import React, { Component, Fragment } from "react";
 import HeaderSite from "./myComponent/header";
 import About from "./myComponent/About";
 import Projects from "./myComponent/projects";
-import Education from "./myComponent/education";
 import Skill from "./myComponent/Skill";
 import Achievements from "./myComponent/achievements";
 import HomePage from "./myComponent/homePage.jsx";
@@ -124,7 +123,6 @@ class AppStart extends Component {
         <About />
         <div className="bg_color">
           <Projects /> <br/>
-          <Education />
           <Skill />
           <Achievements />
           <Footer />

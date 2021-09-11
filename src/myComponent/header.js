@@ -1,7 +1,6 @@
 import React, { Component, Fragment } from "react";
 import {
   AppBar,
-  Typography,
   Toolbar,
   Button,
   IconButton,
@@ -50,19 +49,6 @@ class Header extends Component {
           classes={{ positionStatic: classes.headerwidth }}
         >
           <Toolbar>
-            <Typography
-              variant="subtitle"
-              color="inherit"
-              style={{ flexGrow: 1 }}
-            >
-              <Button
-                color="inherit"
-                style={{ fontSize: "1rem" }}
-                href="https://drive.google.com/file/d/14f8zSAXWWEuT3dpMwlGFyneJEV--vY3I/view"
-              >
-                <i class="fas fa-cloud-download-alt"> DOWNLOAD CV</i>
-              </Button>
-            </Typography>
             <Hidden mdUp>
               <IconButton color="inherit" onClick={this.handleMenubutton}>
                 <MenuIcon />
@@ -77,18 +63,11 @@ class Header extends Component {
                 About
               </Button>
               <Button
-                href="#experience"
+                href="#projects"
                 color="inherit"
                 style={{ fontSize: "1rem" }}
               >
-                Experience
-              </Button>
-              <Button
-                href="#education"
-                color="inherit"
-                style={{ fontSize: "1rem" }}
-              >
-                Education
+                Projects
               </Button>
               <Button
                 href="#skills"
@@ -125,8 +104,7 @@ class Header extends Component {
                 <List>
                   {[
                     "about",
-                    "experience",
-                    "education",
+                    "projects",
                     "skills",
                     "achievements"
                   ].map((text, index) => (

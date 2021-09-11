@@ -339,9 +339,10 @@ ul li {
 }
 
 .skill_row {
+  background-color: white;
   width: 100%;
-
-  box-sizing: border-box;
+  padding-bottom: 10rem;
+  /* box-sizing: border-box; */
 }
 
 .container {
@@ -355,28 +356,20 @@ ul li {
 
 .skills {
   text-align: right; /* Right-align text */
-  /* Add some padding */
-  color: white; /* White text color */
-  height: 1px;
+  color: black; /* White text color */
 }
 .wrapper_skill p {
   margin-left: 25%;
-  color: white;
+  /* color: white; */
 }
-.C {
-  width: 85%;
-  background-color: yellow;
-}
-.JAVA {
-  width: 80%;
-  background-color: yellow;
-}
+
+
 .html {
-  width: 90%;
+  width: 95%;
   background-color: yellow;
 } /* Green */
 .css {
-  width: 80%;
+  width: 90%;
   background-color: yellow;
 } /* Blue */
 .js {
@@ -384,18 +377,14 @@ ul li {
   background-color: yellow;
 } /* Red */
 .react {
-  width: 75%;
+  width: 80%;
   background-color: yellow;
 }
 .node {
-  width: 70%;
+  width: 75%;
   background-color: yellow;
 }
 .db {
   width: 65%;
-  background-color: yellow;
-}
-.python {
-  width: 50%;
   background-color: yellow;
 }

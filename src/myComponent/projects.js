@@ -14,7 +14,7 @@ class Projects extends Component {
   render() {
     return (
       <Fragment>
-        <div className="exp_row" id="experience">
+        <div className="exp_row" id="projects">
           <h1 className="name-css">
             Completed <span className="surname">Projects</span>
           </h1>
